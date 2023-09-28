@@ -1,0 +1,44 @@
+body{
+    background: radial-gradient(rgb(0, 204, 255), blue);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+#botomcito{
+    border-radius: 3rem;
+    height: 2rem;
+    background-color: black;
+    color: aliceblue;
+    
+}
+
+h1{
+    font-size: 3rem;
+}
+
+#botomcito:hover{
+    background-color: rgb(235, 195, 17);
+    color: gray;
+    font-weight: bold;
+
+}
+.inpucito{
+    height: 1.5rem;
+    width: 15rem;
+    
+}
+
+.tal{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    gap: 1rem;
+    width: 20rem;
+    
+    
+}
